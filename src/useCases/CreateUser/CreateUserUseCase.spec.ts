@@ -21,6 +21,6 @@ describe("Create user", () => {
     
     console.log(user);
 
-    expect(user).toHaveReturned()
+    expect(user).toHaveProperty("id")
   });
 });
